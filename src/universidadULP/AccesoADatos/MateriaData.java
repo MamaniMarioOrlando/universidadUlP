@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package universidadULP.AccesoADatos;
 
 import java.sql.*;
@@ -14,7 +10,7 @@ import universidadULP.Entidades.Materia;
 
 /**
  *
- * @author MaRio y Lore 
+ * @author MaRio y Lore
  */
 public class MateriaData {
     
