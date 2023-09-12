@@ -1,3 +1,4 @@
+
 package universidadULP.AccesoADatos;
 
 import java.sql.*;
@@ -10,14 +11,15 @@ import universidadULP.Entidades.Materia;
 
 /**
  *
- * @author MaRio y Lore
+ * @authors MaRio y Lore
  */
 public class MateriaData {
-    
-    Connection connection = Conexion.getConnection();
+    private Connection connection =  null;
 
     public MateriaData() {
+        connection = Conexion.getConnection();        
     }
+    
     
     public void guardarMateria(Materia materia){
         
