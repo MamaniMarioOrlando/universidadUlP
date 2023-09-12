@@ -10,7 +10,7 @@ import universidadULP.Entidades.Materia;
 
 /**
  *
- * @author MaRio y Lore 
+ * @author MaRio y Lore
  */
 public class MateriaData {
     
